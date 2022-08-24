@@ -1,15 +1,36 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import './App.css'
 
-function App() {
+import Tour from './Tour'
+import Tag from './Tag'
+import Logo from './Logo'
+
+const Layout = (): any => {
+  return (
+    <>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/logo">Logo</a>
+          </li>
+          <li>
+            <a href="/tag">Tag</a>
+          </li>
+        </ul>
+      </nav>
+    </>
+  )
+}
+
+function App (): any {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <Tour run={true}></Tour>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,9 +39,16 @@ function App() {
         >
           Learn React
         </a>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}></Route>
+            <Route path="logo" element={<Logo />} />
+            <Route path="tag" element={<Tag />} />
+          </Routes>
+        </BrowserRouter>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
