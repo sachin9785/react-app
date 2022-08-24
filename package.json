@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.1.0",
+  "version": "12.0.1",
   "private": true,
   "dependencies": {
     "@changesets/cli": "^2.24.3",
@@ -26,7 +26,7 @@
     "prepare": "husky install",
     "scriptname": "cmd",
     "pre-commit": "npx lint-staged",
-    "version": "npx lerna version --conventional-commits --ignore-script --no-commit-hooks --no-push --yes"
+    "version": "npx lerna version --conventional-commits --no-push --yes"
   },
   "eslintConfig": {
     "extends": [
