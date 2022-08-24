@@ -1,8 +1,24 @@
 0 silly argv {
 0 silly argv   _: [ 'version' ],
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
 0 silly argv   lernaVersion: '5.4.3',
 0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
 0 silly argv }
 1 notice cli v5.4.3
 2 verbose rootPath D:\husky\my-app
-3 error
+3 info current version 1.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 error Error: Command failed with exit code 1: git remote update
+10 error fatal: unable to access 'https://github.com/sachin9785/react-app.git/': OpenSSL SSL_connect: Connection was reset in connection to github.com:443
+10 error     at makeError (D:\husky\my-app\node_modules\execa\lib\error.js:60:11)
+10 error     at Function.module.exports.sync (D:\husky\my-app\node_modules\execa\index.js:194:17)
+10 error     at Object.execSync (D:\husky\my-app\node_modules\@lerna\child-process\index.js:39:16)
+10 error     at updateRemote (D:\husky\my-app\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
+10 error     at isBehindUpstream (D:\husky\my-app\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
+10 error     at VersionCommand.initialize (D:\husky\my-app\node_modules\@lerna\version\index.js:156:9)
