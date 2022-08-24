@@ -11,12 +11,8 @@
     "@types/node": "^16.11.49",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
-    "lerna": "^5.4.3",
-    "lint-staged": "^13.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-joyride": "^2.5.1",
-    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -29,8 +25,7 @@
     "format": "prettier . --write",
     "prepare": "husky install",
     "scriptname": "cmd",
-    "pre-commit": "npx lint-staged",
-    "version": "npx lerna version --conventional-commits --ignore-script --no-commit-hooks --no-push --yes"
+    "pre-commit": "npx lint-staged"
   },
   "eslintConfig": {
     "extends": [
@@ -73,8 +68,7 @@
       "git add"
     ],
     "src/**/*.+(js|json|ts|tsx)": [
-      "eslint . --fix --max-warnings=0",
-      "git add"
+      "eslint . --fix --max-warnings=0"
     ]
   }
 }
