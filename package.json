@@ -25,7 +25,8 @@
     "format": "prettier . --write",
     "prepare": "husky install",
     "scriptname": "cmd",
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "npx lint-staged",
+    "version": "npx lerna version --conventional-commits --ignore-script --no-commit-hooks --no-push --yes"
   },
   "eslintConfig": {
     "extends": [

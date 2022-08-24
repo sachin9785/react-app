@@ -3,6 +3,6 @@
   "npmClient": "npm",
   "useWorkspaces": false,
   "packages": [
-    "/*"
+    "D:/husky/my-app"
   ]
 }
