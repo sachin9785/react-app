@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0](https://github.com/sachin9785/react-app/compare/v3.3.0...v3.4.0) (2022-08-25)
+
+
+### Features
+
+* **dpt:** test ([7028286](https://github.com/sachin9785/react-app/commit/70282864f985224ff5529cd2310ed8a10b430f2a))
+
+
+
+
+
+# [3.4.0](https://github.com/sachin9785/react-app/compare/v3.3.0...v3.4.0) (2022-08-25)
+
+
+### Features
+
+* **dpt:** test ([7028286](https://github.com/sachin9785/react-app/commit/70282864f985224ff5529cd2310ed8a10b430f2a))
+
+
+
+
+
 # [3.3.0](https://github.com/sachin9785/react-app/compare/v3.2.0...v3.3.0) (2022-08-25)
 
 ### Features
