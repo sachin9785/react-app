@@ -5,25 +5,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.1.0](https://github.com/sachin9785/react-app/compare/v3.0.0...v3.1.0) (2022-08-25)
 
-
 ### Features
 
-* **dpt:** [ 1234 ] test text ([9fc1543](https://github.com/sachin9785/react-app/commit/9fc1543ba3db4e7bf12449105f5f2161e976e650))
-
-
-
-
+- **dpt:** [ 1234 ] test text ([9fc1543](https://github.com/sachin9785/react-app/commit/9fc1543ba3db4e7bf12449105f5f2161e976e650))
 
 # [3.1.0](https://github.com/sachin9785/react-app/compare/v3.0.0...v3.1.0) (2022-08-25)
 
-
 ### Features
 
-* **dpt:** [ 1234 ] test text ([9fc1543](https://github.com/sachin9785/react-app/commit/9fc1543ba3db4e7bf12449105f5f2161e976e650))
-
-
-
-
+- **dpt:** [ 1234 ] test text ([9fc1543](https://github.com/sachin9785/react-app/commit/9fc1543ba3db4e7bf12449105f5f2161e976e650))
 
 # 3.0.0 (2022-08-25)
 
