@@ -4,7 +4,7 @@ const Tag = (): any => {
   return (
     <>
       <p className="tour-cart">
-        Edit <code>src/App.tsx</code> and save to reload1215.
+        Edit <code>src/App.tsx</code> and save to reload121523.
       </p>
     </>
   )

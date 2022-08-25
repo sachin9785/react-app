@@ -32,7 +32,7 @@
     "changeset:version": "npx changeset && npx changeset version",
     "changeset": "changeset",
     "commit": "cz",
-    "coverage": "npm test -- --coverage"
+    "coverage": "npm test -- --coverage --watchAll"
   },
   "eslintConfig": {
     "extends": [
