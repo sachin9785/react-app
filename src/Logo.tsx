@@ -4,7 +4,7 @@ import logo from './logo.svg'
 const Logo = (): any => {
   return (
     <>
-      <div className="text">Display react31</div>
+      <div className="text">Display react311</div>
       <img src={logo} className="App-logo" alt="logo" />
     </>
   )
