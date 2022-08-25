@@ -2,23 +2,87 @@
 0 silly argv   _: [ 'version' ],
 0 silly argv   'conventional-commits': true,
 0 silly argv   conventionalCommits: true,
+0 silly argv   yes: true,
+0 silly argv   y: true,
 0 silly argv   lernaVersion: '5.4.3',
-0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
+0 silly argv   '$0': 'C:\\Users\\10710897\\AppData\\Local\\npm-cache\\_npx\\d5cad42883f80c04\\node_modules\\lerna\\cli.js'
 0 silly argv }
 1 notice cli v5.4.3
-2 verbose rootPath D:\husky\my-app
-3 info current version 1.0.0
+2 verbose rootPath D:\new-husky\react-app
+3 info current version 3.6.0
 4 silly isAnythingCommitted
 5 verbose isAnythingCommitted 1
 6 silly getCurrentBranch
 7 verbose currentBranch main
 8 silly remoteBranchExists
 9 silly isBehindUpstream
-10 error Error: Command failed with exit code 1: git remote update
-10 error fatal: unable to access 'https://github.com/sachin9785/react-app.git/': OpenSSL SSL_connect: Connection was reset in connection to github.com:443
-10 error     at makeError (D:\husky\my-app\node_modules\execa\lib\error.js:60:11)
-10 error     at Function.module.exports.sync (D:\husky\my-app\node_modules\execa\index.js:194:17)
-10 error     at Object.execSync (D:\husky\my-app\node_modules\@lerna\child-process\index.js:39:16)
-10 error     at updateRemote (D:\husky\my-app\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
-10 error     at isBehindUpstream (D:\husky\my-app\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
-10 error     at VersionCommand.initialize (D:\husky\my-app\node_modules\@lerna\version\index.js:156:9)
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "v3.6.0-2-gf52bf96" => {"lastTagName":"v3.6.0","lastVersion":"v3.6.0","refCount":"2","sha":"f52bf96","isDirty":false}
+14 info Looking for changed packages since v3.6.0
+15 silly checking diff
+16 silly found diff in .husky/commit-msg
+16 silly found diff in CHANGELOG.md
+16 silly found diff in lerna.json
+16 silly found diff in package.json
+16 silly found diff in src/Tag.tsx
+17 verbose filtered diff [
+17 verbose filtered diff   '.husky/commit-msg',
+17 verbose filtered diff   'CHANGELOG.md',
+17 verbose filtered diff   'lerna.json',
+17 verbose filtered diff   'package.json',
+17 verbose filtered diff   'src/Tag.tsx'
+17 verbose filtered diff ]
+18 verbose updated my-app
+19 info version rooted leaf detected, skipping synthetic root lifecycles
+20 verbose git-describe undefined => "v3.6.0-2-gf52bf96"
+21 silly git-describe parsed => {"lastTagName":"v3.6.0","lastVersion":"v3.6.0","refCount":"2","sha":"f52bf96","isDirty":false}
+22 silly fixed for my-app at D:\new-husky\react-app
+23 verbose getChangelogConfig using preset "conventional-changelog-angular"
+24 silly npa Result {
+24 silly npa   type: 'tag',
+24 silly npa   registry: true,
+24 silly npa   where: undefined,
+24 silly npa   raw: 'conventional-changelog-angular',
+24 silly npa   name: 'conventional-changelog-angular',
+24 silly npa   escapedName: 'conventional-changelog-angular',
+24 silly npa   scope: undefined,
+24 silly npa   rawSpec: '',
+24 silly npa   saveSpec: null,
+24 silly npa   fetchSpec: 'latest',
+24 silly npa   gitRange: undefined,
+24 silly npa   gitCommittish: undefined,
+24 silly npa   hosted: undefined
+24 silly npa }
+25 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+26 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+27 verbose fixed increment 3.6.0 by minor
+28 info auto-confirmed
+29 info execute Skipping releases
+30 silly lifecycle No script for "preversion" in "my-app", continuing
+31 silly lifecycle No script for "version" in "my-app", continuing
+32 silly fixed for my-app at D:\new-husky\react-app
+33 silly fixed writing new entry: "# [3.7.0](https://github.com/sachin9785/react-app/compare/v3.6.0...v3.7.0) (2022-08-25)\n\n\n### Features\n\n* **dep:** test ([419b042](https://github.com/sachin9785/react-app/commit/419b0427b912d04737736cac7d26c95246535d2a))\n* **dpt:** test ([f52bf96](https://github.com/sachin9785/react-app/commit/f52bf960e96be8ef40b57420f720be80042101c4))\n\n\n\n"
+34 verbose fixed wrote D:\new-husky\react-app\CHANGELOG.md
+35 silly root for my-app at D:\new-husky\react-app
+36 silly root writing new entry: "# [3.7.0](https://github.com/sachin9785/react-app/compare/v3.6.0...v3.7.0) (2022-08-25)\n\n\n### Features\n\n* **dep:** test ([419b042](https://github.com/sachin9785/react-app/commit/419b0427b912d04737736cac7d26c95246535d2a))\n* **dpt:** test ([f52bf96](https://github.com/sachin9785/react-app/commit/f52bf960e96be8ef40b57420f720be80042101c4))\n\n\n\n"
+37 verbose root wrote D:\new-husky\react-app\CHANGELOG.md
+38 verbose version Updating root package-lock.json
+39 silly gitAdd [ 'package.json', 'package-lock.json', 'CHANGELOG.md', 'lerna.json' ]
+40 silly gitCommit v3.7.0
+41 verbose git [ 'commit', '-m', 'v3.7.0' ]
+42 error Error: Command failed with exit code 1: git commit -m v3.7.0
+42 error running pre-commiting checks...
+42 error
+42 error > my-app@3.7.0 pre-commit
+42 error > npx lint-staged
+42 error
+42 error [34m→[39m No staged files match any configured task.
+42 error pre-commiting successfully completed
+42 error Aborting commit. Your commit message is invalid.
+42 error husky - commit-msg hook exited with code 1 (error)
+42 error     at makeError (C:\Users\10710897\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\execa\lib\error.js:60:11)
+42 error     at handlePromise (C:\Users\10710897\AppData\Local\npm-cache\_npx\d5cad42883f80c04\node_modules\execa\index.js:118:26)
+42 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+42 error     at async Promise.all (index 0)
