@@ -5,27 +5,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.5.0](https://github.com/sachin9785/react-app/compare/v3.4.0...v3.5.0) (2022-08-25)
 
-
 ### Features
 
-* test ([13afd48](https://github.com/sachin9785/react-app/commit/13afd48a0a44450a87bfb42c80a37158f57ba6bd))
-* test ([d72d8d7](https://github.com/sachin9785/react-app/commit/d72d8d79b4563babe4dbcd0f4c371e417c5e9300))
-
-
-
-
+- test ([13afd48](https://github.com/sachin9785/react-app/commit/13afd48a0a44450a87bfb42c80a37158f57ba6bd))
+- test ([d72d8d7](https://github.com/sachin9785/react-app/commit/d72d8d79b4563babe4dbcd0f4c371e417c5e9300))
 
 # [3.5.0](https://github.com/sachin9785/react-app/compare/v3.4.0...v3.5.0) (2022-08-25)
 
-
 ### Features
 
-* test ([13afd48](https://github.com/sachin9785/react-app/commit/13afd48a0a44450a87bfb42c80a37158f57ba6bd))
-* test ([d72d8d7](https://github.com/sachin9785/react-app/commit/d72d8d79b4563babe4dbcd0f4c371e417c5e9300))
-
-
-
-
+- test ([13afd48](https://github.com/sachin9785/react-app/commit/13afd48a0a44450a87bfb42c80a37158f57ba6bd))
+- test ([d72d8d7](https://github.com/sachin9785/react-app/commit/d72d8d79b4563babe4dbcd0f4c371e417c5e9300))
 
 # [3.4.0](https://github.com/sachin9785/react-app/compare/v3.3.0...v3.4.0) (2022-08-25)
 
