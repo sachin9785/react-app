@@ -1,5 +1,11 @@
 # my-app
 
+## 2.0.4
+
+### Patch Changes
+
+- test changes
+
 ## 2.0.3
 
 ### Patch Changes

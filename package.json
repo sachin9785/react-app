@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "private": true,
   "dependencies": {
     "@changesets/cli": "^2.24.3",
@@ -29,7 +29,8 @@
     "scriptname": "cmd",
     "pre-commit": "npx lint-staged",
     "lerna:version": "npx lerna version --conventional-commits --no-push --yes",
-    "changeset:version": "npx changeset -v && npx changeset version",
+    "changeset:version": "npx changeset && npx changeset version",
+    "changeset": "changeset",
     "commit": "cz"
   },
   "eslintConfig": {
