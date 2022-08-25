@@ -37,7 +37,7 @@ function App (): any {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React1
         </a>
         <BrowserRouter>
           <Routes>

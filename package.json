@@ -31,7 +31,8 @@
     "lerna:version": "npx lerna version --conventional-commits --no-push --yes",
     "changeset:version": "npx changeset && npx changeset version",
     "changeset": "changeset",
-    "commit": "cz"
+    "commit": "cz",
+    "coverage": "npm test -- --coverage"
   },
   "eslintConfig": {
     "extends": [
