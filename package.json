@@ -27,7 +27,7 @@
     "format": "prettier . --write",
     "prepare": "husky install",
     "scriptname": "cmd",
-    "pre-commit": "npx lint-staged --verbose",
+    "pre-commit": "npx lint-staged",
     "lerna:version": "npx lerna version --conventional-commits --no-push --yes",
     "changeset:version": "npx changeset && npx changeset version",
     "changeset": "changeset",
@@ -72,12 +72,10 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier . --write",
-      "git add"
+      "prettier . --write"
     ],
     "src/**/*.+(js|json|ts|tsx)": [
-      "eslint . --fix",
-      "git add"
+      "eslint . --fix --max-warnings=0"
     ]
   },
   "config": {
