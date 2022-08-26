@@ -75,8 +75,7 @@
       "prettier . --write"
     ],
     "src/**/*.+(js|json|ts|tsx)": [
-      "eslint --fix --max-warnings=1",
-      "git add"
+      "eslint --cache --fix --max-warnings=1"
     ]
   },
   "config": {
