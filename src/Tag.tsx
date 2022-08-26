@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Tag = (): any => {
   return (
@@ -7,7 +7,7 @@ const Tag = (): any => {
         Edit <code>src/App.tsx</code> and save to reload1121523.
       </p>
     </>
-  )
-}
+  );
+};
 
-export default Tag
+export default Tag;

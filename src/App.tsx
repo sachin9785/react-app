@@ -1,10 +1,10 @@
-import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './App.css'
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
 
-import Tour from './Tour'
-import Tag from './Tag'
-import Logo from './Logo'
+import Tour from "./Tour";
+import Tag from "./Tag";
+import Logo from "./Logo";
 
 const Layout = (): any => {
   return (
@@ -23,10 +23,10 @@ const Layout = (): any => {
         </ul>
       </nav>
     </>
-  )
-}
+  );
+};
 
-function App (): any {
+function App(): any {
   return (
     <div className="App">
       <header className="App-header">
@@ -48,7 +48,7 @@ function App (): any {
         </BrowserRouter>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

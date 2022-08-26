@@ -1,5 +1,5 @@
-import React from 'react'
-import JoyRide from 'react-joyride'
+import React from "react";
+import JoyRide from "react-joyride";
 
 // Tour component
 const Tour = (props: any): any => {
@@ -9,59 +9,59 @@ const Tour = (props: any): any => {
         run={props.run}
         steps={[
           {
-            target: '.App-logo',
-            title: 'New on the website ? ',
+            target: ".App-logo",
+            title: "New on the website ? ",
             content: "To see how the website works, let's get started",
             locale: {
-              next: 'Start',
-              skip: 'Skip'
+              next: "Start",
+              skip: "Skip",
             },
             disableBeacon: true,
-            placement: 'right'
+            placement: "right",
           },
           {
-            target: '.text',
-            content: 'Give us information about the city',
-            placement: 'left',
-            disableBeacon: true
+            target: ".text",
+            content: "Give us information about the city",
+            placement: "left",
+            disableBeacon: true,
           },
           {
-            target: '.tour-cart',
-            content: 'Give us information about the city',
-            placement: 'left',
-            disableBeacon: true
+            target: ".tour-cart",
+            content: "Give us information about the city",
+            placement: "left",
+            disableBeacon: true,
           },
           {
-            target: '.tour-contact',
-            content: 'Tell us the period',
-            placement: 'top'
+            target: ".tour-contact",
+            content: "Tell us the period",
+            placement: "top",
           },
           {
-            target: '.tour-contact',
-            content: 'Tell us the activity you would like to practice',
-            placement: 'left'
-          }
+            target: ".tour-contact",
+            content: "Tell us the activity you would like to practice",
+            placement: "left",
+          },
         ]}
         continuous={true}
         showSkipButton={true}
         styles={{
           tooltipContainer: {
-            textAlign: 'left'
+            textAlign: "left",
           },
           buttonNext: {
-            backgroundColor: 'green'
+            backgroundColor: "green",
           },
           buttonBack: {
-            marginRight: 10
-          }
+            marginRight: 10,
+          },
         }}
         locale={{
-          last: 'End tour',
-          skip: 'Close tour'
+          last: "End tour",
+          skip: "Close tour",
         }}
       />
     </>
-  )
-}
+  );
+};
 
-export default Tour
+export default Tour;
