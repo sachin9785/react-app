@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "private": true,
   "dependencies": {
     "@changesets/cli": "^2.24.3",
