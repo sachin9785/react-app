@@ -2,7 +2,5 @@
   "version": "4.0.0",
   "npmClient": "npm",
   "useWorkspaces": false,
-  "packages": [
-    "D:/new-husky/react-app"
-  ]
+  "packages": ["D:/new-husky/react-app"]
 }
