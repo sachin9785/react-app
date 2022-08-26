@@ -27,7 +27,7 @@
     "format": "prettier . --write",
     "prepare": "husky install",
     "scriptname": "cmd",
-    "pre-commit": "npx lint-staged",
+    "pre-commit": "lint-staged",
     "lerna:version": "npx lerna version --conventional-commits --no-push --yes",
     "changeset:version": "npx changeset && npx changeset version",
     "changeset": "changeset",
