@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "3.10.0",
+  "version": "3.8.0",
   "private": true,
   "dependencies": {
     "@changesets/cli": "^2.24.3",
@@ -27,7 +27,7 @@
     "format": "prettier . --write",
     "prepare": "husky install",
     "scriptname": "cmd",
-    "pre-commit": "lint-staged",
+    "pre-commit": "npx lint-staged",
     "lerna:version": "npx lerna version --conventional-commits --no-push --yes",
     "changeset:version": "npx changeset && npx changeset version",
     "changeset": "changeset",
@@ -67,7 +67,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run pre-commit"
     }
   },
   "lint-staged": {
@@ -75,8 +75,8 @@
       "prettier . --write"
     ],
     "src/**/*.+(js|json|ts|tsx)": [
-      "eslint . --fix --max-warnings=0",
-      "git add ."
+      "eslint --fix",
+      "git add"
     ]
   },
   "config": {
