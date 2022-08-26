@@ -3,6 +3,6 @@
   "npmClient": "npm",
   "useWorkspaces": false,
   "packages": [
-    "react-app"
+    "D:/new-husky/react-app"
   ]
 }
